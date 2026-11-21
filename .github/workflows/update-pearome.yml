@@ -7,8 +7,7 @@ on:
         description: Reconstruire même si ce run est déjà publié
         type: boolean
         default: false
-  schedule:
-    - cron: "53 4 * * *"
+  # Pas de planification pour l'instant : lancement à la main (workflow_dispatch).
 
 permissions:
   contents: write
