@@ -3,7 +3,7 @@ name: Mise à jour PEAROME (probabilités)
 on:
   schedule:
     # 1 run par jour (PEAROME 09Z), à une heure différente des autres modèles.
-    - cron: "30 13 * * *"
+    - cron: "20 0,6,12,18 * * *"
   workflow_dispatch:
     inputs:
       force:
